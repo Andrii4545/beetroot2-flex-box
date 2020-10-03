@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+#container{
+    width: 100%;
+    height: 250px;
+    background-color: green;
+    display: flex;
+    
+
+       
+}
+
+#container>div{
+    display: block;
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    border: 1px solid yellow;
+
+    font-size: 30px;
+    /* text-align: center; */
+    padding: 50px;
+}
